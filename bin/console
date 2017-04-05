@@ -1,10 +1,5 @@
 #!/usr/bin/env ruby
-require "bundler"
-Bundler.setup(:default)
-Bundler.require(:default)
-
 require_relative "../config/application"
 require "irb"
 require "irb/completion"
 IRB.start
-
